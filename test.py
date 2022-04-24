@@ -1,0 +1,2 @@
+from random import randint
+print('LOTTO\npodaj 10 liczb:');print('wygraleś' if 'wygraleś' in ['wygraleś' for j in [int(input(f'{co+1} liczba: ')) for co in range(10)] for i in [randint(1,100) for j in range(4)] if j == i] else 'przegrales')
